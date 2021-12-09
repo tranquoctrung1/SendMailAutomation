@@ -1,0 +1,45 @@
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe.config
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.pdb
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.dll
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OOXML.dll
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OpenXml4Net.dll
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.Form1.resources
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.Properties.Resources.resources
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.GenerateResource.cache
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CoreCompileInputs.cache
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CopyComplete
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.exe
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.pdb
+D:\backup\Hoa An\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csprojAssemblyReference.cache
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe.config
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\WF_SendMailAutomation.pdb
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.dll
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OOXML.dll
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OpenXml4Net.dll
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.Form1.resources
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.Properties.Resources.resources
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.GenerateResource.cache
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CoreCompileInputs.cache
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CopyComplete
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.exe
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.pdb
+D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation.csprojAssemblyReference.cache
+D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe.config
+D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe
+D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.pdb
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.AssemblyReference.cache
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.Form1.resources
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.Properties.Resources.resources
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.GenerateResource.cache
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CoreCompileInputs.cache
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.CopyComplete
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.exe
+D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.pdb

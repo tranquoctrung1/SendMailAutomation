@@ -1,0 +1,1240 @@
+ Update excel failed. NPOI.POIFS.FileSystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+   at NPOI.POIFS.Storage.HeaderBlock.PrivateHeaderBlock(Byte[] data)
+   at NPOI.POIFS.Storage.HeaderBlock..ctor(Stream stream)
+   at NPOI.POIFS.FileSystem.POIFSFileSystem..ctor(Stream stream)
+   at NPOI.HSSF.UserModel.HSSFWorkbook..ctor(Stream s)
+   at WF_SendMailAutomation.Helper.SendMail.WriteFile() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 186
+-------------------------------------
+ Update excel failed. NPOI.POIFS.FileSystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+   at NPOI.POIFS.Storage.HeaderBlock.PrivateHeaderBlock(Byte[] data)
+   at NPOI.POIFS.Storage.HeaderBlock..ctor(Stream stream)
+   at NPOI.POIFS.FileSystem.POIFSFileSystem..ctor(Stream stream)
+   at NPOI.HSSF.UserModel.HSSFWorkbook..ctor(Stream s)
+   at WF_SendMailAutomation.Helper.SendMail.WriteFile() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 186
+-------------------------------------
+ Update excel failed. NPOI.POIFS.FileSystem.OfficeXmlFileException: The supplied data appears to be in the Office 2007+ XML. You are calling the part of POI that deals with OLE2 Office Documents. You need to call a different part of POI to process this data (eg XSSF instead of HSSF)
+   at NPOI.POIFS.Storage.HeaderBlock.PrivateHeaderBlock(Byte[] data)
+   at NPOI.POIFS.Storage.HeaderBlock..ctor(Stream stream)
+   at NPOI.POIFS.FileSystem.POIFSFileSystem..ctor(Stream stream)
+   at NPOI.HSSF.UserModel.HSSFWorkbook..ctor(Stream s)
+   at WF_SendMailAutomation.Helper.SendMail.WriteFile() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 186
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 01/10/2020 13:38:12;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ 01/10/2020 13:38:41: Gửi mail thất bại: System.IO.FileNotFoundException: Could not find file 'D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls'.
+File name: 'D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at WF_SendMailAutomation.Helper.SendMail.Send() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 52
+-------------------------------------
+ 01/10/2020 13:38:41: File path is: D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls
+01/10/2020 13:38:41: Send Monthly Report 09_2020 ERROR: No Data To Send
+
+-------------------------------------
+ 01/10/2020 13:40:19: Gửi mail thất bại: System.IO.FileNotFoundException: Could not find file 'D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls'.
+File name: 'D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at WF_SendMailAutomation.Helper.SendMail.Send() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 52
+-------------------------------------
+ 01/10/2020 13:40:19: File path is: D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls
+01/10/2020 13:40:19: Send Monthly Report 09_2020 ERROR: No Data To Send
+
+-------------------------------------
+ LastUpdate: 31/08/2020 23:00:00;Now: 01/10/2020 13:41:00;DataCount: 10290
+-------------------------------------
+ File Report_09_2020.xls was updated Data from 31/08/2020 23:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ 01/10/2020 13:41:49: Gửi mail thất bại: System.IO.IOException: The process cannot access the file 'D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.Net.Mail.AttachmentBase.SetContentFromFile(String fileName, String mediaType)
+   at System.Net.Mail.AttachmentBase..ctor(String fileName)
+   at System.Net.Mail.Attachment..ctor(String fileName)
+   at WF_SendMailAutomation.Helper.SendMail.Send() in D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Helper\SendMail.cs:line 52
+-------------------------------------
+ 01/10/2020 13:41:49: File path is: D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls
+01/10/2020 13:41:49: Send Monthly Report 09_2020 ERROR: No Data To Send
+
+-------------------------------------
+ 01/10/2020 13:41:59: Gửi mail thành công
+-------------------------------------
+ 01/10/2020 13:41:59: File path is: D:\project\HOA AN\viMeter2\WF_SendMailAutomation\Files\Report_09_2020.xls
+01/10/2020 13:41:59: Send Monthly Report 09_2020 Successful
+
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 01/10/2020 16:37:19;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/09/2020 11:00:00;Now: 01/10/2020 23:34:58;DataCount: 10122
+-------------------------------------
+ File Report_09_2020.xls was updated Data from 01/09/2020 11:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 11/09/2020 01:00:00;Now: 02/10/2020 00:00:02;DataCount: 6902
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 11/09/2020 01:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 31/08/2020 23:00:00;Now: 02/10/2020 11:59:57;DataCount: 10290
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 31/08/2020 23:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 12:01:14;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 20/09/2020 14:00:00;Now: 02/10/2020 13:00:00;DataCount: 3696
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 20/09/2020 14:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 26/09/2020 01:00:00;Now: 02/10/2020 14:00:00;DataCount: 1862
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 26/09/2020 01:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 17:00:01;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 21:00:03;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 22:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 02/10/2020 23:00:01;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 01:00:01;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 22:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 03/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 00:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 22:00:04;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 04/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 26/09/2020 12:00:00;Now: 05/10/2020 11:00:01;DataCount: 1708
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 26/09/2020 12:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 25/09/2020 07:00:00;Now: 05/10/2020 13:00:01;DataCount: 2114
+-------------------------------------
+ File Report_10_2020.xls was updated Data from 25/09/2020 07:00:23 to 01/10/2020 13:00:23
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 22:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 05/10/2020 23:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 21:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 22:00:03;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 06/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 22:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 07/10/2020 23:00:01;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 22:00:05;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 08/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 22:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 09/10/2020 23:00:03;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 22:00:02;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 10/10/2020 23:00:01;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 22:00:05;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 11/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 05:00:06;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 10:00:06;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 22:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 12/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 12:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 13:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 14:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 15:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 16:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 17:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 18:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 19:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 20:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 21:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 22:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 13/10/2020 23:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 00:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 01:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 02:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 03:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 04:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 05:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 06:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 07:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 08:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 09:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 10:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
+ LastUpdate: 01/10/2020 14:00:00;Now: 14/10/2020 11:00:00;DataCount: 0
+-------------------------------------
+ No Data was updated
+-------------------------------------
