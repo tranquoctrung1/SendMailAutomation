@@ -90,7 +90,7 @@ namespace WF_SendMailAutomation.Helper
                 "[FPC_1]VFD1_CURR_FB", "[FPC_1]VFD2_CURR_FB", "[FPC_1]VFD3C_CURR_FB", "[FPC_1]VFD3D_CURR_FB",
                 "[FPC_1]VFD1_SPD_FB", "[FPC_1]VFD2_SPD_FB", "[FPC_1]VFD3C_SPD_FB", "[FPC_1]VFD3D_SPD_FB",
                 "[FPC_1]VFD1_KW_FB", "[FPC_1]VFD2_KW_FB", "[FPC_1]VFD3C_KW_FB",
-                "[FPC_1]VFD3D_KW_FB", "Power1.Power.Power", "Power2.Power.Power", "FLOWRATE(m3/h)"
+                "[FPC_1]VFD3D_KW_FB", "Power1.Power.Power", "Power2.Power.Power", "[FPC_1]RW_FIT"
             };
             //var tagHeaders = new List<string>() {
             //    "1P1A_VFD1_CURRENT_FB", "1P1B_VFD2_CURRENT_FB", "1P1C_VFD3_CURRENT_FB", "1P1D_VFD3_CURRENT_FB",
@@ -101,7 +101,7 @@ namespace WF_SendMailAutomation.Helper
                 "[FPC_1]VFD1_CURR_FB", "[FPC_1]VFD2_CURR_FB", "[FPC_1]VFD3C_CURR_FB", "[FPC_1]VFD3D_CURR_FB",
                 "[FPC_1]VFD1_SPD_FB", "[FPC_1]VFD2_SPD_FB", "[FPC_1]VFD3C_SPD_FB", "[FPC_1]VFD3D_SPD_FB",
                 "[FPC_1]VFD1_KW_FB", "[FPC_1]VFD2_KW_FB", "[FPC_1]VFD3C_KW_FB",
-                "[FPC_1]VFD3D_KW_FB",  "LV-Multimeter 1", "LV-Multimeter 2", "FLOWRATE(m3/h)"
+                "[FPC_1]VFD3D_KW_FB",  "LV-Multimeter 1", "LV-Multimeter 2", "[FPC_1]RW_FIT"
             };
 
             var timeStamps = data.Select(d => d.DateAndTime).Distinct().ToList();
@@ -218,13 +218,13 @@ namespace WF_SendMailAutomation.Helper
                         "[FPC_1]VFD1_CURR_FB", "[FPC_1]VFD2_CURR_FB", "[FPC_1]VFD3C_CURR_FB", "[FPC_1]VFD3D_CURR_FB",
                         "[FPC_1]VFD1_SPD_FB", "[FPC_1]VFD2_SPD_FB", "[FPC_1]VFD3C_SPD_FB", "[FPC_1]VFD3D_SPD_FB",
                         "[FPC_1]VFD1_KW_FB", "[FPC_1]VFD2_KW_FB", "[FPC_1]VFD3C_KW_FB",
-                        "[FPC_1]VFD3D_KW_FB",  "Power1.Power.Power", "Power2.Power.Power", "FLOWRATE(m3/h)"
+                        "[FPC_1]VFD3D_KW_FB",  "Power1.Power.Power", "Power2.Power.Power", "[FPC_1]RW_FIT"
                     };
                     var tagHeaders = new List<string>()  {
                         "[FPC_1]VFD1_CURR_FB", "[FPC_1]VFD2_CURR_FB", "[FPC_1]VFD3C_CURR_FB", "[FPC_1]VFD3D_CURR_FB",
                         "[FPC_1]VFD1_SPD_FB", "[FPC_1]VFD2_SPD_FB", "[FPC_1]VFD3C_SPD_FB", "[FPC_1]VFD3D_SPD_FB",
                         "[FPC_1]VFD1_KW_FB", "[FPC_1]VFD2_KW_FB", "[FPC_1]VFD3C_KW_FB",
-                        "[FPC_1]VFD3D_KW_FB",   "LV-Multimeter 1", "LV-Multimeter 2", "FLOWRATE(m3/h)"
+                        "[FPC_1]VFD3D_KW_FB",   "LV-Multimeter 1", "LV-Multimeter 2", "[FPC_1]RW_FIT"
                     };
 
                     var timeStamps = data.Select(d => d.DateAndTime).Distinct().ToList();
