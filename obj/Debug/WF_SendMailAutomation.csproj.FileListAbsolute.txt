@@ -35,7 +35,6 @@ D:\project\HOA AN\viMeter2\WF_SendMailAutomation\obj\Debug\WF_SendMailAutomation
 D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe.config
 D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.exe
 D:\project\SendMailAutomation\bin\Debug\WF_SendMailAutomation.pdb
-D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.AssemblyReference.cache
 D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.Form1.resources
 D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.Properties.Resources.resources
 D:\project\SendMailAutomation\obj\Debug\WF_SendMailAutomation.csproj.GenerateResource.cache
